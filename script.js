@@ -8,7 +8,7 @@ function checkGuess() {
         return;
     }
 
-    if (guess === 'patio') {
+    if (guess === 'terrace') {
         message.textContent = 'Congratulations! You guessed the word! Hidden Message: MUJI ELEVATOR 10th FLOOR PATIO';
         guessInput.disabled = true;
     } else {
