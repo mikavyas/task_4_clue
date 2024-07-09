@@ -3,7 +3,7 @@ function checkGuess() {
     const message = document.getElementById('message');
     const guess = guessInput.value.trim().toLowerCase();
 
-    if (guess === 'terrace') {
+    if (guess === 'patio') {
         message.textContent = 'Congratulations! You guessed the word! Hidden Message: MUJI ELEVATOR 10th FLOOR PATIO';
     } else {
         message.textContent = 'Incorrect guess. Try again.';
